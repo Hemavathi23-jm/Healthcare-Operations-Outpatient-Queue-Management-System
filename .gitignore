@@ -1,0 +1,30 @@
+# Exclude all markdown documentation files as requested
+*.md
+**/*.md
+
+# Maven / Java Build Artifacts
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# Node / Frontend Build Artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS and Logs
+*.log
+.DS_Store
+Thumbs.db
